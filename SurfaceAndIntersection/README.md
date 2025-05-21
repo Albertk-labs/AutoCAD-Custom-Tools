@@ -4,7 +4,7 @@ This module contains custom AutoCAD commands written in C# using the .NET API. I
 
 ---
 
-## 🛠 Commands
+## Commands
 
 ### `DRS` – Draw Surface
 Creates a vertical surface (region and PlaneSurface) based on a user-selected line in the XY plane. The surface height is defined by the user via prompt.
