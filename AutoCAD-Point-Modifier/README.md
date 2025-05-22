@@ -24,13 +24,7 @@ This plugin was created with the help of **ChatGPT (OpenAI)** based on an idea a
 
 ---
 
-## Repository Structure
-AutoCAD-Point-Modifier/
-├── CombinedPointsModifier.cs # Main logic and commands
-├── DrawingMethods.cs # Drawing helpers
-├── ExcelExportMethods.cs # Excel export
-├── PointModificationMethods.cs # Point calculations
-├── README.md # This file
+<pre lang="markdown"> ##  Repository Structure ```plaintext AutoCAD-Point-Modifier/ ├── CombinedPointsModifier.cs # Main logic and commands ├── DrawingMethods.cs # Drawing helpers ├── ExcelExportMethods.cs # Excel export ├── PointModificationMethods.cs # Point calculations ├── README.md # This file ``` </pre>
 
 ---
 
