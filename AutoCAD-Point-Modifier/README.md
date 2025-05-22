@@ -7,7 +7,7 @@ This project is a plugin for AutoCAD, written in C#, that enhances point manipul
 ## Features
 
 - **Interactive point selection** with reference line
-- ↔**Point translation** based on perpendicular vector
+- **Point translation** based on perpendicular vector
 - **Slope and height modification** for Z-coordinates
 - **Projection** to XY, XZ, or YZ planes
 - **Drawing translated points** in model space
