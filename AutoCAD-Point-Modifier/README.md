@@ -35,7 +35,7 @@ AutoCAD-Point-Modifier/
 
 ---
 
-## 💻 How to Use
+## How to Use
 
 1. Build the solution to produce a `.dll`.
 2. Load the DLL into AutoCAD using the `NETLOAD` command.
