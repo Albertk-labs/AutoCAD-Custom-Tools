@@ -49,9 +49,9 @@ This Revit-to-AutoCAD loop integrates Python automation with C# tools:
 
 ### ▶️ Step 2: Analyze DWG in AutoCAD (C# Tools)
 - Use `S1`, `S2` to verify and structure section & basket texts
-- Use `E1` to generate the Excel `TME1.xlsx`**
-- Use `S3` to associate wall IDs with reinforcement baskets, then **generate the final Excel **
-- `S3` is the key step that prepares the Excel used by Revit
+- Use `S3` to associate wall IDs with reinforcement baskets and **generate the final Excel**
+- Use `E1` to generate `TME1.xlsx` – used as an input for S3
+- `S3` is the key step that prepares the Excel used in the next stage
 
 ### ▶️ Step 3: Re-import Data into Revit
 - Use `assign_reinforcement.py` with Excel input from `S3`
