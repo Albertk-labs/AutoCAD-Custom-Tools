@@ -83,4 +83,14 @@ This Revit-to-AutoCAD loop integrates Python automation with C# tools:
 ## 📍 Related Repo Structure
 
 These scripts are part of a larger toolset available in this repository:
-
+ReinforcementTools/
+├── AutoCAD-C#/ # C# tools: S1, S2, S3, E1
+│ ├── S1.cs # Text match tool (sections)
+│ ├── S2.cs # Validation tool
+│ ├── S3.cs # Main processor – creates TME1.xlsx
+│ └── E1.cs # Final Excel summary
+└── RevitAutomation/ # You are here
+├── assign_reinforcement.py
+├── check_missing_reinforcement.py
+├── place_tags.py
+└── README.md
