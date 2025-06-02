@@ -12,6 +12,14 @@ These scripts extend the functionality of the AutoCAD-based reinforcement tools 
 - Automatically places wall tags in a specified view.
 - Tags are placed at the midpoint of wall geometry.
 
+### 3. check_missing_reinforcement.py
+- Scans selected Revit walls.
+- Filters out elements that are part of the `"New Construction"` phase **and** do not yet have a reinforcement value.
+- Helps identify elements that still need data assignment.
+
+#### Use case:
+Run this before `assign_reinforcement.py` to isolate only the walls requiring attention.
+
 ## Workflow Connection
 
 These scripts should be used **after** running AutoCAD tools (`E1`, `S1`, etc.), which export Excel data like `TME1.xlsx`.
