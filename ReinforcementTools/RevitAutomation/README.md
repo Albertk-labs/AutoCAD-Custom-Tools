@@ -16,6 +16,25 @@ These scripts extend the functionality of the AutoCAD-based reinforcement tools 
 
 These scripts should be used **after** running AutoCAD tools (`E1`, `S1`, etc.), which export Excel data like `TME1.xlsx`.
 
+## Script Overview – assign_reinforcement.py
+
+This script:
+- Reads a list of wall elements selected in Dynamo.
+- Matches each wall's "Mark" parameter (e.g. `N31.02`) with cleaned-up keys from Excel.
+- Assigns the reinforcement value to the parameter `PRT_PL_TXT_RC_W_Wskaźnik_Zbrojenia_1`.
+
+### Input format (from Excel):
+- Paired list: `[ "N31.02", 45.25, "K12.03", 38.75, ... ]`
+- Matches are done based on cleaned form like `N02`, `K03`, etc.
+
+---
+
+## Node Graph in Dynamo
+
+This graph illustrates the logic of parameter assignment from Excel:
+
+![Dynamo Node Graph](assign_reinforcement_nodes.png)
+
 ## Requirements
 
 - Revit 2022+
