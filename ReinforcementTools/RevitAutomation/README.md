@@ -89,8 +89,8 @@ ReinforcementTools/
 ├── AutoCAD-C#/          # C# tools: S1, S2, S3, E1
 │   ├── S1.cs             # Text match tool (sections)
 │   ├── S2.cs             # Validation tool
-│   ├── S3.cs             # Main processor – creates TME1.xlsx
-│   └── E1.cs             # Final Excel summary
+│   ├── S3.cs             # Final Excel generator (wall-to-basket matching)
+│   └── E1.cs             # Preprocessor – generates TME1.xlsx
 └── RevitAutomation/       # You are here
      ├── assign_reinforcement.py
      ├── check_missing_reinforcement.py
